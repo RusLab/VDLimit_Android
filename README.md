@@ -95,7 +95,7 @@ startActivity(intent)
 ```kotlin
 
 VdLimit.getStatus(
-                userId = configData[3],
+                userId = "hgd123-hgd123-hgd123",
                 userPhone = 999999999999,
                 statusResultListener = object : VdLimit.StatusResultListener {
                     override fun onError(error: String) {
