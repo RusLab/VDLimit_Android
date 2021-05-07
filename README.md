@@ -83,7 +83,7 @@ val intent = VdLimit.getLimitsIntent(
                 userId = "hgd123-hgd123-hgd123", // опционально
                 userPhone = "999999999999" // опционально
             )
-startActivityForResult(intent)
+startActivity(intent)
 ```
 
 ## 4. Получение статуса кредитного лимита без вызова экрана анкеты
